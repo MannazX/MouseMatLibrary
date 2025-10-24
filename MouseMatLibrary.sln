@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMatLibrary", "MouseMatLibrary\MouseMatLibrary.csproj", "{04A33422-2B94-433B-8A28-6F21E1916346}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMatLibrary", "MouseMatLibrary\MouseMatLibrary.csproj", "{DDA2F321-AB77-430A-B232-8801B4795605}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04A33422-2B94-433B-8A28-6F21E1916346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04A33422-2B94-433B-8A28-6F21E1916346}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04A33422-2B94-433B-8A28-6F21E1916346}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04A33422-2B94-433B-8A28-6F21E1916346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA2F321-AB77-430A-B232-8801B4795605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA2F321-AB77-430A-B232-8801B4795605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA2F321-AB77-430A-B232-8801B4795605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA2F321-AB77-430A-B232-8801B4795605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

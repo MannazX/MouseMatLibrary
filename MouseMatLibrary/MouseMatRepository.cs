@@ -11,6 +11,8 @@ namespace MouseMatLibrary
 		#region Repository Setup
 		private static List<MouseMat> _mouseMats;
 
+		public int Count { get { return _mouseMats.Count; } }
+
 		public MouseMatRepository()
 		{
 			_mouseMats = new List<MouseMat>();

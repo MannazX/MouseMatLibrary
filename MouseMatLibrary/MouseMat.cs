@@ -12,7 +12,7 @@
 		public double Price { get; set; }
 		#endregion
 
-		#region
+		#region Constructor
 		public MouseMat(string brand, string material, double length, double width, string color, double price)
 		{
 			if (string.IsNullOrEmpty(brand))
@@ -35,9 +35,9 @@
 			{
 				throw new ArgumentNullException("The color cannto be null or empty");
 			}
-			if (price == null)
+			if (price <= 0)
 			{
-				throw new ArgumentNullException("The price cannot be null");
+				throw new ArgumentOutOfRangeException("The price cannot be zero or less");
 			}
 			Brand = brand;
 			Material = material;

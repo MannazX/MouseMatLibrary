@@ -101,6 +101,15 @@ namespace MouseMatTests
 		[DoNotParallelize]
 		public void TestDeleteMouseMat()
 		{
+			MouseMat mat = new MouseMat("Razer", "Cloth", 20, 20, "Black", 100);
+			_repo.Add(mat);
+			int countBefore = _repo.Get().Count();
+			MouseMat? removed = _repo.Delete(mat.Id);
+			int countAfter = _repo.Get().Count();
+
+			Assert.IsNotNull(removed);
+			Assert.AreEqual("Razer", removed.Brand);
+			Assert.AreEqual(countBefore, countAfter + 1);
 
 		}
 	}

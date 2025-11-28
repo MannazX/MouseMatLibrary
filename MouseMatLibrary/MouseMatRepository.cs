@@ -98,7 +98,7 @@ namespace MouseMatLibrary
 				item.Color = update.Color;
 				item.Price = update.Price;
 			}
-			_mouseMats[_mouseMats.IndexOf(item)] = item;
+			_mouseMats[_mouseMats.IndexOf(_mouseMats.Find(x => x.Id == id))] = item;
 			return item;
 		}
 		#endregion
